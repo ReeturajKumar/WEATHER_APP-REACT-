@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #03989E;
+}
+.container{
+  width: 500px;
+  height: 580px;
+  background-color: whitesmoke;
+  backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.city{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 50px;
+}
+
+.city input {
+  display: flex;
+  width: 270px;
+  height: 60px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  padding-left: 20px;
+  border-radius: 40px;
+  font-size: 15px;
+  color: #1c1c1c;
+  box-shadow: 10px 5px 10px 0px rgba(0,0,0,0.34);
+}
+
+.city button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  color: #1c1c1c;
+  background-color: #fff;
+  height: 60px;
+  border-radius: 50%;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 10px 5px 10px 0px rgba(0,0,0,0.34);
+}
+
+.error-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1c1c1c;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image{
+  text-transform: capitalize;
+  color: #1c1c1c;
+}
+
+image img{
+  width: 100%;
+  height: 100%;
+  margin: 10px auto 0 auto;
+}
+
+.image .desc{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.temp{
+  color: #03989E;
+  text-align: center;
+  font-size: 20px;
+  margin: 25px auto 15px auto;
+}
+
+.weather_city{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #1c1c1c;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.weather_city .location{
+  color: #03989E;
+  margin-top: 8px;
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.weather_state{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 50px;
+}
